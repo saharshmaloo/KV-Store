@@ -63,7 +63,7 @@ Partial writes, torn records, and crashes during writes are safely handled.
 
 ## 📁 On-Disk Format
 
-Each WAL record is length-prefixed and self-contained:
+Each WAL record is length-prefixed and self-contained:  
 [ total_length ]  
 [ key_length   ]  
 [ key_bytes    ]  
